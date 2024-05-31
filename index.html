@@ -57,6 +57,7 @@
 
 
   </header>
+  <div id="google_translate_element"></div>
   <div class="alert alert-danger mt-5" role="alert">
     Most dangerous disease in India
   </div>
@@ -311,6 +312,16 @@
     crossorigin="anonymous"></script>
 
   <script src="call.js"></script>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+      }, 'google_translate_element');
+    }
+  </script>
+  <script type="text/javascript"
+    src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 
 </html>

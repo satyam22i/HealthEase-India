@@ -21,56 +21,54 @@
 
 }
 
-/* Styling for the header */
+
 .unique-header {
   background-color: #f4f4f4;
-  /* Light gray background */
+
   padding: 20px;
-  /* Padding around the header */
+
   text-align: center;
-  /* Center-align text */
+
   border-bottom: 2px solid #ccc;
-  /* Bottom border */
+
 }
 
-/* Styling for the header title */
 .unique-header h1 {
   margin: 0;
-  /* Remove default margin */
+
   font-size: 2.5em;
-  /* Increase font size */
+
   color: #333;
-  /* Dark gray color */
+
 }
 
-/* Styling for the navigation menu */
+
 .unique-header nav ul {
   list-style-type: none;
-  /* Remove default bullet points */
   padding: 0;
-  /* Remove default padding */
+
   margin: 0;
-  /* Remove default margin */
+
   display: inline-flex;
-  /* Display menu items inline */
+
 }
 
 .unique-header nav ul li {
   margin-right: 20px;
-  /* Space between menu items */
+
 }
 
 .unique-header nav ul li a {
   text-decoration: none;
-  /* Remove underline */
+
   color: #333;
-  /* Dark gray color */
+
   font-weight: bold;
-  /* Bold text */
+
 }
 
-/* Add hover effect for menu links */
+
 .unique-header nav ul li a:hover {
   color: #007BFF;
-  /* Change color on hover */
+
 }
